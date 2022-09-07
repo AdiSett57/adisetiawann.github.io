@@ -325,9 +325,11 @@ section {
 }
 
 .img-profile{
-  border-top-left-radius: 7em;
-  border-bottom-right-radius: 7em;
-  border: 1px solid black;
+  height: 400px !important;
+  width: 500px;
+  /* border-top-left-radius: 7em; */
+  /* border-bottom-right-radius: 7em; */
+  /* border: 1px solid black; */
   
 }
 
@@ -897,6 +899,11 @@ section {
 }
 .contact .php-email-form button[type=submit]:hover {
   background: #0678e3;
+}
+
+.kontak img{
+  width: 400px;
+  height: 400px;
 }
 @-webkit-keyframes animate-loading {
   0% {
